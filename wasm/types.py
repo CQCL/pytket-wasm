@@ -261,7 +261,7 @@ class StructureMeta(type):
         for cur_field_name, cur_field in list(cls_dict.items()):
             # Is callable, property, private or magic? We don't touch those.
             if (
-                isinstance(cur_field, collections.Callable) or
+                isinstance(cur_field, collections.abc.Callable) or
                 isinstance(cur_field, property) or
                 cur_field_name.startswith('_')
             ):

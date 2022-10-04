@@ -1,9 +1,7 @@
 ### ❗ Important
 
-Unfortunately, I currently don't have the time to maintain or update this 
-project. While there is a chance that I might revive it at some point, you
-really shoudldn't count on that. Please feel free to fork or just take
-anything that looks useful!
+Copy from https://github.com/athre0z/wasm
+Updated fro python 3.10
 
 wasm
 ====

@@ -4,15 +4,13 @@
 from setuptools import setup
 
 setup(
-    name='wasm',
-    version='1.2',
-    packages=['wasm'],
-    url='https://github.com/athre0z/wasm',
-    download_url='https://github.com/athre0z/wasm/archive/v1.2.tar.gz',
+    name='pytket-wasm',
+    version='1.0',
+    packages=['pytket-wasm'],
     keywords=['wasm', 'disassembler', 'decoder'],
     license='MIT',
-    author='Joel Höner',
-    author_email='athre0z@zyantific.com',
+    author='Melf Johannsen',
+    author_email='melf.johannsen@quantinuum.com',
     description='WebAssembly decoder & disassembler',
     install_requires=[
         'setuptools',
