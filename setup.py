@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
     name='qwasm',
-    version='1.0',
+    version='1.0.1',
     packages=['qwasm'],
     keywords=['wasm', 'disassembler', 'decoder'],
     license='MIT',
