@@ -9,6 +9,7 @@ setup(
     packages=['qwasm'],
     keywords=['wasm', 'disassembler', 'decoder'],
     license='MIT',
+    url="https://github.com/CQCL/qwasm",
     author='Melf Johannsen',
     author_email='melf.johannsen@quantinuum.com',
     description='WebAssembly decoder & disassembler',
