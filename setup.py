@@ -4,9 +4,9 @@
 from setuptools import setup
 
 setup(
-    name='pytket-wasm',
+    name='qwasm',
     version='1.0',
-    packages=['pytket-wasm'],
+    packages=['qwasm'],
     keywords=['wasm', 'disassembler', 'decoder'],
     license='MIT',
     author='Melf Johannsen',
